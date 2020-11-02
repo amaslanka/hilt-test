@@ -12,7 +12,7 @@ abstract class MidActivity : BaseActivity() {
     @Inject
     lateinit var otherString: String
 
-    var appBar: AppBarLayout? = null
+    var appBar: CustomAppBarLayout? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
